@@ -1,0 +1,28 @@
+body{
+    font-family: "Dosis", sans-serif;
+    background-color: gainsboro;
+}
+#game{
+    background-color: darkgray;
+    text-align: center;
+    border-radius: 6px;
+    border-color: black;
+    border-width: 4px;
+}
+#hand{
+    height: 180px;
+    width: 180px;
+}
+.btn{
+    height: 250px; 
+    text-align: center;
+}
+#new-game{
+    background-color: black;
+    color: white;
+    border-radius: 4cm;
+    height: 70px;
+    width: 110px;
+    border-width: 4px;
+    border-color: white;
+}

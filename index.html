@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissor</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap')
+</style>
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Rock Paper Scissors</h1>
+            <div class="score-board">
+                <div id="player-score">Player Score:0</div>
+                <div id="computer-score">Computer Score:0</div>
+            </div>
+            <div id="game">
+                <div class="choices">
+                    <button class="btn" onclick="play('rock')"><img id="hand" src="https://rps-game.netlify.app/img/rock.png"></button>
+                    <button class="btn" onclick="play('paper')"><img id="hand" src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg"></button>
+                    <button class="btn" onclick="play('scissors')"><img id="hand" src="https://static.thenounproject.com/png/88666-200.png"></button>
+                </div>
+                <div id="result"></div>
+                <button class="btn-new-game" id="new-game" onclick="newGame()">New Game</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
